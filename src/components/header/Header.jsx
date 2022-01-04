@@ -7,7 +7,7 @@ export default function Header() {
             <Carousel/>
             <div className="header-desc">
                 <h3>Our Products</h3>
-                <p>Blaaa blaaa blaaaa blaaaaa blaaaaaa blaaaaaaa</p>
+                <p>A product description is a form of marketing copy used to describe and explain the benefits of your product.</p>
             </div>
         </div>
     )
