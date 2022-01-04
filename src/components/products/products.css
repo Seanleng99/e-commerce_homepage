@@ -11,6 +11,7 @@
     flex-direction: row;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .products-container .categories .categories-item {
@@ -27,6 +28,12 @@
     color: gray;
     font-size: 15px;
     transition: all .5s ease;
+}
+
+@media screen and (max-width: 768px){
+    .products-container .categories .categories-item {
+        margin: 0 15px 15px;
+    }
 }
 
 .products-container .categories .categories-item:hover {

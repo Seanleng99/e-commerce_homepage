@@ -9,6 +9,12 @@
     overflow: hidden;
 }
 
+@media screen and (max-width: 768px) {
+    .topbar {
+        height: 60px;
+    }
+}
+
 .topbar .wrapper {
     padding: 10px 30px;
     display: flex;
@@ -27,6 +33,12 @@
     text-decoration: none;
     color: inherit;
     margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .topbar .wrapper .left .logo {
+        font-size: 30px;
+    }
 }
 
 .topbar .wrapper .right {
@@ -48,6 +60,13 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+    .topbar .wrapper .right .login {
+        height: 30px;
+        width: 30px;
+    }
+}
+
 .topbar .wrapper .right .cart {
     margin: 0 3px;
     display: flex;
@@ -60,6 +79,19 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+    .topbar .wrapper .right .cart {
+        height: 30px;
+        width: 30px;   
+    }
+}
+
 .topbar .wrapper .right .cart,.login .icon {
     font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .topbar .wrapper .right .cart,.login .icon {
+        font-size: 20px;
+    }
 }
